@@ -1,0 +1,32 @@
+[
+    {
+        "id": 0,
+        "nom": "CUSTOMISATION",
+        "chemin": "image\/Customisation.jpg"
+    },
+    {
+        "id": 1,
+        "nom": "GARAGE",
+        "chemin": "image\/Garage.jpg"
+    },
+    {
+        "id": 2,
+        "nom": "PIECES D\u00c9TACH\u00c9",
+        "chemin": "image\/Pieces d\u00e9tach\u00e9.jpg"
+    },
+    {
+        "id": 3,
+        "nom": "REPRISE",
+        "chemin": "image\/Reprise.jpg"
+    },
+    {
+        "id": 4,
+        "nom": "VENTE VOITURE",
+        "chemin": "image\/Vente voiture.jpg"
+    },
+    {
+        "id": 5,
+        "nom": "Carroserie",
+        "chemin": "image\/Carroserie.png"
+    }
+]

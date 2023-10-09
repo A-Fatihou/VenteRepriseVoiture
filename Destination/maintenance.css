@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 100px;
+}
+
+h1 {
+    font-size: 36px;
+    color: #333;
+}
+
+p {
+    font-size: 18px;
+    color: #666;
+}
+
+.stop-sign {
+    font-size: 72px;
+    color: red;
+}
+
+.back-home {
+    font-size: 24px;
+    color: #007bff;
+    text-decoration: none;
+    cursor: pointer; /* Ajout d'un curseur de type pointer pour indiquer que le lien est cliquable */
+}

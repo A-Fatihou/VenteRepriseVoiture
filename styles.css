@@ -1,0 +1,77 @@
+
+.logo {
+    width: 350px;
+    height: auto;
+}
+header {
+    background-color: gray;
+    color:  rgba(204, 37, 37, 0.795);
+    padding: 5px;
+    top: 0; 
+    left: 0;
+    right: 0;
+    width: 100%; 
+}
+.nav-container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.nav-item {
+    margin-left: 10px;
+}
+main {
+    margin-top: 20px; 
+    margin: 0 auto; 
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-gap: 30px; 
+    justify-content: center; 
+}
+.image-container {
+    width: calc(33.33% - 20px);
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    margin-bottom: 20px; 
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+    pointer-events: none;
+}
+.image-title {
+    margin-top: 10px;
+    font-weight: bold;
+}
+.read-more-button-container {
+    margin-top: 10px; 
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+.read-more-button {
+    padding: 5px 15px; 
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none; 
+}
+.read-more-button svg {
+    
+    width: 14px; 
+    height: 14px;
+    margin-left: 5px; 
+}
